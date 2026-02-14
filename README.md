@@ -178,26 +178,3 @@ Key Python packages:
 - `typer` - CLI support
 
 See `requirements.txt` for complete list.
-
-## Development Notes
-
-- The application uses Windows Proactor Event Loop policy for compatibility with Windows systems
-- Configuration paths are currently hardcoded (e.g., `E:/Packer/db/`) and may need adjustment for different environments
-- The API gracefully handles shutdown signals (Ctrl+C)
-- Startup and shutdown events are logged for monitoring
-
-## Error Handling
-
-The API implements error handling with HTTP exceptions for invalid requests. Check the FastAPI documentation endpoint at `/docs` for detailed error responses.
-
-## License
-
-[Add your license information here]
-
-## Author
-
-4. Semester Capstone Project
-
-## Support
-
-For issues or questions, please refer to the project documentation or contact the development team.
